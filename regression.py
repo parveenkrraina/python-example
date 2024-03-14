@@ -15,6 +15,6 @@ model.fit(X, y)
 # Predict using the trained model
 x_new = np.array([[6]])
 y_pred = model.predict(x_new)
-
+# New file in github.
 # Print the predicted value
 print(f"Predicted value for x={x_new[0][0]}: {y_pred[0]}")
